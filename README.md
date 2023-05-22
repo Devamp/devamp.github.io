@@ -1,4 +1,4 @@
-# [HTTPS](https://dpatel.co/)
+# [dpatel.co](https://dpatel.co/)
 Personal website to showcase my exepriences and skills.
 
 # Purpose
