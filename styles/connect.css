@@ -1,0 +1,118 @@
+@font-face {
+  font-family: 'GT Walsheim Pro Cond';
+  src: url('GTWalsheimPro-CondensedMedium.eot');
+  src: local('GT Walsheim Pro Condensed Medium'), local('GTWalsheimPro-CondensedMedium'),
+      url('GTWalsheimPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+      url('GTWalsheimPro-CondensedMedium.woff2') format('woff2'),
+      url('GTWalsheimPro-CondensedMedium.woff') format('woff'),
+      url('GTWalsheimPro-CondensedMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  font-family: 'GT Walsheim Pro Cond';
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.sub_header {
+  width: 100%;
+  text-align: center;
+}
+
+.DP_Header a {
+  font-size: 40px;
+  color: #D52727;
+  width: fit-content;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.DP_Header a:hover {
+  color: white;
+}
+
+.sub_header a {
+  font-size: 16px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.sub_header a:hover {
+  text-decoration: underline;
+}
+
+.sub_header a.active {
+  background-color:#ddd;
+  color: white;
+}
+
+#connect_button {
+  padding: 15px;
+  background-color: #D52727;
+}
+
+
+.media_text {
+  text-align: center;
+  color: #D52727;
+  font-size: 70px;
+  width: 100%;
+  margin-top: 90px;
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+@keyframes fade-in {
+0% {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
+}
+
+.media_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  opacity: 0;
+  animation: fade-in 1s forwards;
+}
+
+
+.fa {
+  padding: 30px;
+  font-size: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #D52727;
+  color: white;
+  margin: 40px;
+  
+}
+
+.media_links a:hover {
+  transform: scale(1.1);
+}
