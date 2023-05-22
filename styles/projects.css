@@ -44,10 +44,13 @@ body {
     width: fit-content;
     font-weight: bold;
     text-decoration: none;
+    display: flex; 
+    justify-content: center;
 }
 
 .DP_Header a:hover {
     color: white;
+    transform: scale(1.1);
 }
 
 
