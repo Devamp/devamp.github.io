@@ -1,4 +1,4 @@
-# devamp.github.io
+# [HTTPS](https://dpatel.co/)
 Personal website to showcase my exepriences and skills.
 
 # Purpose
