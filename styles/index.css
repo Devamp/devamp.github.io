@@ -1,12 +1,11 @@
 
 @font-face {
     font-family: 'GT Walsheim Pro Cond';
-    src: url('GTWalsheimPro-CondensedMedium.eot');
+    src: url('../fonts/GTWalsheimPro-CondensedMedium.eot');
     src: local('GT Walsheim Pro Condensed Medium'), local('GTWalsheimPro-CondensedMedium'),
-        url('GTWalsheimPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
-        url('GTWalsheimPro-CondensedMedium.woff2') format('woff2'),
-        url('GTWalsheimPro-CondensedMedium.woff') format('woff'),
-        url('GTWalsheimPro-CondensedMedium.ttf') format('truetype');
+        url('../fonts/GTWalsheimPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GTWalsheimPro-CondensedMedium.woff2') format('woff2'),
+        url('../fonts/GTWalsheimPro-CondensedMedium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
