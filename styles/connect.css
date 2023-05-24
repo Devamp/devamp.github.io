@@ -2,9 +2,9 @@
   font-family: 'GT Walsheim Pro Cond';
   src: url('../fonts/GTWalsheimPro-CondensedMedium.eot');
   src: local('GT Walsheim Pro Condensed Medium'), local('GTWalsheimPro-CondensedMedium'),
-      url('../fonts/GTWalsheimPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/GTWalsheimPro-CondensedMedium.woff2') format('woff2'),
-      url('../fonts/GTWalsheimPro-CondensedMedium.woff') format('woff');
+    url('../fonts/GTWalsheimPro-CondensedMedium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/GTWalsheimPro-CondensedMedium.woff2') format('woff2'),
+    url('../fonts/GTWalsheimPro-CondensedMedium.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
@@ -40,7 +40,7 @@ body {
   width: fit-content;
   font-weight: bold;
   text-decoration: none;
-  display: flex; 
+  display: flex;
   justify-content: center;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 .sub_header a.active {
-  background-color:#ddd;
+  background-color: #ddd;
   color: white;
 }
 
@@ -83,14 +83,15 @@ body {
 }
 
 @keyframes fade-in {
-0% {
-  opacity: 0;
-  transform: translateY(-100%);
-}
-100% {
-  opacity: 1;
-  transform: translateY(0);
-}
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .media_links {
@@ -112,7 +113,7 @@ body {
   background: #D52727;
   color: white;
   margin: 40px;
-  
+
 }
 
 .media_links a:hover {

@@ -44,7 +44,7 @@ body {
     width: fit-content;
     font-weight: bold;
     text-decoration: none;
-    display: flex; 
+    display: flex;
     justify-content: center;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .sub_header a.active {
-    background-color:#ddd;
+    background-color: #ddd;
     color: white;
 }
 
@@ -80,10 +80,10 @@ body {
     animation: fade-in 1s forwards;
     text-align: center;
     font-size: 44px;
-    width: 100%;    
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 20px;
-    color: #D52727;    
+    color: #D52727;
 }
 
 @keyframes fade-in {
@@ -91,6 +91,7 @@ body {
         opacity: 0;
         transform: translateY(-100%);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -131,9 +132,9 @@ body {
 }
 
 .project_box a {
-    color:white; 
-    margin: 0; 
-    float: left; 
+    color: white;
+    margin: 0;
+    float: left;
     text-decoration: none;
 }
 

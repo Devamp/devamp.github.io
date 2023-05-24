@@ -2,44 +2,44 @@
 
 <html>
 
-  <head>
+<head>
     <title>Devam Patel | Projects</title>
     <link rel="stylesheet" type="text/css" href="../styles/projects.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
 
-  </head>
+</head>
 
 
-    <body>    
-    
-        <div class="header">
-            <div class="sub_header">
-                <a href="../index">HOME</a>
-                <a href="./experience">EXPERIENCE</a>
-                <a href="./projects">PROJECTS</a>
-      
-            </div>
-      
-          <div class="DP_Header">
-              <a href="../index">
+<body>
+
+    <div class="header">
+        <div class="sub_header">
+            <a href="../home">HOME</a>
+            <a href="./experience">EXPERIENCE</a>
+            <a href="./projects">PROJECTS</a>
+
+        </div>
+
+        <div class="DP_Header">
+            <a href="../home">
                 <img style="width: 30%;" src="../images/logo.png" alt="DP Icon">
-              </a>
-          </div>
-      
-            <div class="sub_header">
-                <a href="./skills">SKILLS</a>
-                <a id="connect_button" href="./connect">LET'S CONNECT</a>
-                
-            </div>
-      
-          </div>
+            </a>
+        </div>
+
+        <div class="sub_header">
+            <a href="./skills">SKILLS</a>
+            <a id="connect_button" href="./connect">LET'S CONNECT</a>
+
+        </div>
+
+    </div>
 
     <p id="intro_text">MY PROJECTS</p>
 
-    <div  class="media_links">
+    <div class="media_links">
         <h3 style="padding-right: 10px; color:white; margin: 0; float: left;">VIEW CODE AND MORE PROJECTS ON GITHUB</h3>
-        <a href="https://github.com/Devamp" class="fa fa-github"></a>   
+        <a href="https://github.com/Devamp" class="fa fa-github"></a>
     </div>
 
     <div class="project_box">
@@ -101,6 +101,6 @@
     </div>
 
 
-  </body>
+</body>
 
 </html>
