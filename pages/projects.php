@@ -19,14 +19,14 @@
 
     <div class="header">
         <div class="sub_header">
-            <a href="../home">HOME</a>
+            <a href="../index">index</a>
             <a href="./experience">EXPERIENCE</a>
             <a href="./projects">PROJECTS</a>
 
         </div>
 
         <div class="DP_Header">
-            <a href="../home">
+            <a href="../index">
                 <img style="width: 30%;" src="../images/logo.png" alt="DP Icon">
             </a>
         </div>

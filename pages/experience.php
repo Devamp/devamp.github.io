@@ -19,14 +19,14 @@
 
   <div class="header">
     <div class="sub_header">
-      <a href="../home">HOME</a>
+      <a href="../index">index</a>
       <a href="./experience">EXPERIENCE</a>
       <a href="./projects">PROJECTS</a>
 
     </div>
 
     <div class="DP_Header">
-      <a href="../home">
+      <a href="../index">
         <img style="width: 30%;" src="../images/logo.png" alt="DP Icon">
       </a>
     </div>
@@ -85,7 +85,7 @@
       <h4 style=" margin: 5; float: right; position: relative; font-size: 20px; color:white;">DEC 2021 - DEC 2022</h4>
       <h4 style="width: fit-content; margin-top: 0; font-size: 20px; color:#D52727; text-align: center;">University of Portland | Portland, OR</h4>
       <div class="experience_text">
-        <li>Assisted faculty member with grading student homework assignments, coding projects, and exams</li>
+        <li>Assisted faculty member with grading student indexwork assignments, coding projects, and exams</li>
         <li>Collaborated with faculty member to establish grading parameters and assignment deadlines</li>
         <li>Ensured timely completion of grading work and returned assignments to students</li>
         <li>Served as TA for CS-301 (Object-Oriented Programming) and CS-305 (Data Structures) classes</li>

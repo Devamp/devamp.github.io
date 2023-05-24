@@ -7,7 +7,7 @@
 
 <head>
     <title>Devam Patel | Home</title>
-    <link rel="stylesheet" type="text/css" href="./styles/home.css">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
 </head>
 
@@ -15,14 +15,14 @@
 
     <div class="header">
         <div class="sub_header">
-            <a href="./home">HOME</a>
+            <a href="./index">HOME</a>
             <a href="./pages/experience">EXPERIENCE</a>
             <a href="./pages/projects">PROJECTS</a>
 
         </div>
 
         <div class="DP_Header">
-            <a href="./home">
+            <a href="./index">
                 <img style="width: 30%;" src="./images/logo.png" alt="DP Icon">
             </a>
         </div>
