@@ -5,45 +5,119 @@
     <title>Devam Patel | Home</title>
     <link rel="stylesheet" type="text/css" href="./styles/index.css">
     <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+    <script>
+        // Device detection and class assignment
+        if (/Mobi/.test(navigator.userAgent)) {
+            document.documentElement.classList.add('is-mobile');
+        } else {
+            document.documentElement.classList.add('is-desktop');
+        }
+    </script>
+
 </head>
 
 <body>
 
-    <div class="header">
-        <div class="sub_header">
-            <a href="./index">HOME</a>
-            <a href="./pages/experience">EXPERIENCE</a>
-            <a href="./pages/projects">PROJECTS</a>
+    <div class="is-desktop">
 
+        <div class="header">
+            <div class="sub_header">
+                <a href="./index">HOME</a>
+                <a href="./pages/experience">EXPERIENCE</a>
+                <a href="./pages/projects">PROJECTS</a>
+
+            </div>
+
+            <div class="DP_Header">
+                <a href="./index">
+                    <img style="width: 30%;" src="./images/logo.png" alt="DP Icon">
+                </a>
+            </div>
+
+            <div class="sub_header">
+                <a href="./pages/skills">SKILLS</a>
+                <a id="connect_button" href="./pages/connect">LET'S CONNECT</a>
+
+            </div>
         </div>
 
-        <div class="DP_Header">
-            <a href="./index">
-                <img style="width: 30%;" src="./images/logo.png" alt="DP Icon">
-            </a>
+        <div class="welcome_box">
+            <a style="color: #D52727">Hi,</a>
+            <a style="color: #D52727">I'm Devam.</a>
+
+            <br>
+
+            <div class="intro_box">
+                <p>Passionate, motivated computer science student seeking opportunities to collaborate within a dynamic
+                    and
+                    innovative team. With a strong programming background, I am driven to design and develop
+                    cutting-edge
+                    software applications. Equipped with exceptional communication skills and a proven track record in
+                    teamwork, I am dedicated to making a meaningful impact.</p>
+            </div>
         </div>
 
-        <div class="sub_header">
-            <a href="./pages/skills">SKILLS</a>
-            <a id="connect_button" href="./pages/connect">LET'S CONNECT</a>
+        <img id="personal_photo" src="./images/personal_photo.jpeg" alt="Devam Patel" class="right-to-left">
 
+    </div>
+
+
+
+
+
+
+
+
+    <div class="is-mobile">
+        <div class="header">
+            <div class="sub_header">
+                <a id="connect_button" href="./pages/connect">LET'S CONNECT</a>
+            </div>
+            <div class="DP_Header">
+                <a href="./index">
+                    <img src="./images/logo.png" alt="DP Icon">
+                </a>
+            </div>
+            <button class="dropdown-btn"><i id="bars" class="fas fa-bars"></i></button>
+            <div class="dropdown-content">
+                <a href="../index">HOME</a>
+                <a href="./pages/experience.html">EXPERIENCE</a>
+                <a href="./pages/projects">PROJECTS</a>
+                <a href="./pages/skills">SKILLS</a>
+                <a href="./pages/connect">CONNECT</a>
+            </div>
         </div>
     </div>
 
-    <div class="welcome_box">
-        <a style="color: #D52727">Hi,</a>
-        <a style="color: #D52727">I'm Devam.</a>
+    <script>
 
-        <br>
+        document.addEventListener('DOMContentLoaded', function () {
+            var dropdownBtn = document.querySelector('.dropdown-btn');
+            var dropdownContent = document.querySelector('.dropdown-content');
+            var dropdownIcon = document.getElementById("bars");
 
-        <div class="intro_box">
-            <p>Passionate, motivated computer science student seeking opportunities to collaborate within a dynamic and innovative team. With a strong programming background, I am driven to design and develop cutting-edge software applications. Equipped with exceptional communication skills and a proven track record in teamwork, I am dedicated to making a meaningful impact.</p>
-        </div>
-    </div>
+            dropdownBtn.addEventListener('click', function () {
+                dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+                if (dropdownIcon.className === "fas fa-bars") {
+                    dropdownIcon.className = "fas fa-times";
+                } else {
+                    dropdownIcon.className = "fas fa-bars";
+                }
+            });
+
+            document.addEventListener('click', function (event) {
+                if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+                    dropdownContent.style.display = 'none';
+                }
+            });
+        });
 
 
+    </script>
 
-    <img id="personal_photo" src="./images/personal_photo.jpeg" alt="Devam Patel" class="right-to-left">
 
 </body>
 
