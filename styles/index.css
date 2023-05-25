@@ -83,24 +83,26 @@ body {
 }
 
 .is-mobile .sub_header {
+    position: absolute;
     width: 100%;
     text-align: center;
     margin-left: 35px;
-    margin-top: 30px;
+    top: 4%;
 }
 
 .is-mobile .DP_Header {
-    display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 50%;
     height: 200px;
+    left: 48%;
+    top: 0.8%;
 }
 
 .is-mobile .DP_Header img {
-    max-width: 70%;
-    max-height: 70%;
-    margin: auto;
+    max-width: 75%;
+    max-height: 75%;
     margin-top: 20px;
 }
 
@@ -108,7 +110,7 @@ body {
     font-size: 28px;
     color: #f2f2f2;
     text-align: center;
-    padding: 25px;
+    padding: 20px;
     text-decoration: none;
 }
 
@@ -181,6 +183,7 @@ body {
     align-self: center;
     align-items: center;
     justify-content: center;
+    margin-top: 15%;
 }
 
 .is-mobile .intro_box p {
