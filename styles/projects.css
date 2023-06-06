@@ -230,7 +230,7 @@ body {
     width: 100%;
     text-align: center;
     margin-left: 35px;
-    top: 5%;
+    top: 4%;
 }
 
 .is-mobile .DP_Header {
@@ -239,7 +239,7 @@ body {
     align-items: center;
     width: 50%;
     height: 200px;
-    left: 48%;
+    left: 46%;
     top: 0.8%;
 }
 
@@ -296,7 +296,7 @@ body {
     color: #D52727;
 }
 
-.is-mobile .dropdown-btn #bars{
+.is-mobile .dropdown-btn {
     position: absolute;
     top: 70px;
     right: 70px;
@@ -307,6 +307,18 @@ body {
     border: none;
     font-size: 50px;
 }
+
+.is-mobile  #bars {
+    position: absolute;
+    right: 0;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 50px;
+    top: 0;
+  }
 
 .is-mobile #intro_text {
     animation: fade-in 1s forwards;
