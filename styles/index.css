@@ -55,13 +55,13 @@ body {
 
 @keyframes slide-in-bottom {
     0% {
-        transform: translateY(100%);
+      transform: translateY(100%);
     }
-
+  
     100% {
-        transform: translateY(0%);
+      transform: translateY(200px);
     }
-}
+  }
 
 
 

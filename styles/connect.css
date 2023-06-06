@@ -54,13 +54,14 @@
 
 @keyframes slide-in-bottom {
   0% {
-      transform: translateY(100%);
+    transform: translateY(100%);
   }
 
   100% {
-      transform: translateY(0%);
+    transform: translateY(200px);
   }
 }
+
 
 
 body {
@@ -274,14 +275,12 @@ body {
 
 .is-mobile  #bars {
   position: absolute;
-  right: 0;
+  top: -40px;
+  right: -50px;
   display: flex;
   background-color: black;
   color: white;
-  padding: 20px;
-  border: none;
   font-size: 50px;
-  top: 0;
 }
 
 
