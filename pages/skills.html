@@ -7,69 +7,176 @@
   <link rel="stylesheet" type="text/css" href="../styles/skills.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
+  <script>
+    // Device detection and class assignment
+    if (/Mobi/.test(navigator.userAgent)) {
+      document.documentElement.classList.add('is-mobile');
+    } else {
+      document.documentElement.classList.add('is-desktop');
+    }
+  </script>
 </head>
 
 <body>
 
-  <div class="header">
-    <div class="sub_header">
-      <a href="../index">HOME</a>
-      <a href="./experience">EXPERIENCE</a>
-      <a href="./projects">PROJECTS</a>
+  <div class="is-desktop">
+    <div class="header">
+      <div class="sub_header">
+        <a href="../index">HOME</a>
+        <a href="./experience">EXPERIENCE</a>
+        <a href="./projects">PROJECTS</a>
+
+      </div>
+
+      <div class="DP_Header">
+        <a href="../index">
+          <img style="width: 30%;" src="../images/logo.png" alt="DP Icon">
+        </a>
+      </div>
+
+      <div class="sub_header">
+        <a href="./skills">SKILLS</a>
+        <a id="connect_button" href="./connect">LET'S CONNECT</a>
+
+      </div>
 
     </div>
 
-    <div class="DP_Header">
-      <a href="../index">
-        <img style="width: 30%;" src="../images/logo.png" alt="DP Icon">
-      </a>
+    <p id="intro_text">TECHNICAL SKILLS</p>
+
+    <div class="technical_container">
+      <p class="title_text" style="font-size: 22px;">Programming Experience: <span class="content_after_colon">Java,
+          C/C++, Python, JavaScript, PHP, SQL, HTML/CSS, MIPS Assembly</span></p>
+      <p class="title_text">Developer Tools: <span class="content_after_colon">Visual Studio/Code, Git/GitHub, Azure
+          DevOps, MySQL, SQLite, Android Studio</span></p>
+      <p class="title_text">Frameworks: <span class="content_after_colon">React Native, Node.js, Google Testing
+          Framework,
+          Expo</span></p>
+      <p class="title_text">Server Stacks: <span class="content_after_colon">LAMP (Linux, Apache, MySQL, PHP) including
+          MAMP (Mac, Apache, MySQL, PHP)</span></p>
+      <p class="title_text">OS: <span class="content_after_colon">Linux, MacOS, Windows</span></p>
+      <p class="title_text">MS Office: <span class="content_after_colon">Word, Excel, Powerpoint</span></p>
     </div>
 
-    <div class="sub_header">
-      <a href="./skills">SKILLS</a>
-      <a id="connect_button" href="./connect">LET'S CONNECT</a>
 
+    <br>
+    <p id="intro_text">SOFT SKILLS</p>
+
+    <div class="sub_content">
+      <ul class="column">
+        <li>Problem-solving</li>
+        <li>Communication</li>
+        <li>Collaboration</li>
+        <li>Adaptability</li>
+        <li>Attention to detail</li>
+        <li>Time management</li>
+        <li>Creativity</li>
+        <li>Critical thinking</li>
+        <li>Analytical</li>
+        <li>Learning</li>
+        <li>Empathy</li>
+        <li>Conflict resolution</li>
+        <li>Client management</li>
+        <li>Quality-focused</li>
+        <li>Ethical</li>
+        <li>Hard Working</li>
+      </ul>
     </div>
 
   </div>
 
-  <p id="intro_text">TECHNICAL SKILLS</p>
+  <div class="is-mobile">
+    <div class="header">
+      <div class="sub_header">
+        <a id="connect_button" href="./connect">LET'S CONNECT</a>
+      </div>
+      <div class="DP_Header">
+        <a href="../index.html">
+          <img src="../images/logo.png" alt="DP Icon">
+        </a>
+      </div>
+      <button class="dropdown-btn"><i id="bars" class="fas fa-bars"></i></button>
+      <div class="dropdown-content">
+        <a href="../index.html">HOME</a>
+        <a href="./experience.html">EXPERIENCE</a>
+        <a href="./projects">PROJECTS</a>
+        <a href="./skills">SKILLS</a>
+        <a href="./connect">CONNECT</a>
+      </div>
+    </div>
 
-  <div class="technical_container">
-    <p class="title_text" style="font-size: 22px;">Programming Experience: <span class="content_after_colon">Java, C/C++, Python, JavaScript, PHP, SQL, HTML/CSS, MIPS Assembly</span></p>
-    <p class="title_text">Developer Tools: <span class="content_after_colon">Visual Studio/Code, Git/GitHub, Azure DevOps, MySQL, SQLite, Android Studio</span></p>
-    <p class="title_text">Frameworks: <span class="content_after_colon">React Native, Node.js, Google Testing Framework, Expo</span></p>
-    <p class="title_text">Server Stacks: <span class="content_after_colon">LAMP (Linux, Apache, MySQL, PHP) including MAMP (Mac, Apache, MySQL, PHP)</span></p>
-    <p class="title_text">OS: <span class="content_after_colon">Linux, MacOS, Windows</span></p>
-    <p class="title_text">MS Office: <span class="content_after_colon">Word, Excel, Powerpoint</span></p>
+    <p id="intro_text">TECHNICAL SKILLS</p>
+
+    <div class="technical_container">
+      <p class="title_text" style="font-size: 22px;">Programming Experience: <span class="content_after_colon">Java,
+          C/C++, Python, JavaScript, PHP, SQL, HTML/CSS, MIPS Assembly</span></p>
+      <p class="title_text">Developer Tools: <span class="content_after_colon">Visual Studio/Code, Git/GitHub, Azure
+          DevOps, MySQL, SQLite, Android Studio</span></p>
+      <p class="title_text">Frameworks: <span class="content_after_colon">React Native, Node.js, Google Testing
+          Framework,
+          Expo</span></p>
+      <p class="title_text">Server Stacks: <span class="content_after_colon">LAMP (Linux, Apache, MySQL, PHP) including
+          MAMP (Mac, Apache, MySQL, PHP)</span></p>
+      <p class="title_text">OS: <span class="content_after_colon">Linux, MacOS, Windows</span></p>
+      <p class="title_text">MS Office: <span class="content_after_colon">Word, Excel, Powerpoint</span></p>
+    </div>
+
+
+    <br>
+    <p id="intro_text">SOFT SKILLS</p>
+
+    <div class="sub_content">
+      <ul class="column">
+        <li>Problem-solving</li>
+        <li>Communication</li>
+        <li>Collaboration</li>
+        <li>Adaptability</li>
+        <li>Attention to detail</li>
+        <li>Time management</li>
+        <li>Creativity</li>
+        <li>Critical thinking</li>
+        <li>Analytical</li>
+        <li>Learning</li>
+        <li>Empathy</li>
+        <li>Conflict resolution</li>
+        <li>Client management</li>
+        <li>Quality-focused</li>
+        <li>Ethical</li>
+        <li>Hard Working</li>
+      </ul>
+    </div>
+
+    
   </div>
 
 
-  <br>
-  <p id="intro_text">SOFT SKILLS</p>
+  <script>
 
-  <div class="sub_content">
-    <ul class="column">
-      <li>Problem-solving</li>
-      <li>Communication</li>
-      <li>Collaboration</li>
-      <li>Adaptability</li>
-      <li>Attention to detail</li>
-      <li>Time management</li>
-      <li>Creativity</li>
-      <li>Critical thinking</li>
-      <li>Analytical</li>
-      <li>Learning</li>
-      <li>Empathy</li>
-      <li>Conflict resolution</li>
-      <li>Client management</li>
-      <li>Quality-focused</li>
-      <li>Ethical</li>
-      <li>Hard Working</li>
-    </ul>
-  </div>
+    document.addEventListener('DOMContentLoaded', function () {
+      var dropdownBtn = document.querySelector('.dropdown-btn');
+      var dropdownContent = document.querySelector('.dropdown-content');
+      var dropdownIcon = document.getElementById("bars");
 
+      dropdownBtn.addEventListener('click', function () {
+        dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
+        if (dropdownIcon.className === "fas fa-bars") {
+          dropdownIcon.className = "fas fa-times";
+        } else {
+          dropdownIcon.className = "fas fa-bars";
+        }
+      });
+
+      document.addEventListener('click', function (event) {
+        if (!dropdownBtn.contains(event.target) && !dropdownContent.contains(event.target)) {
+          dropdownContent.style.display = 'none';
+        }
+      });
+    });
+
+
+  </script>
 
 
 
