@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../styles/projects.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <script>
         // Device detection and class assignment
@@ -136,7 +135,7 @@
                     <img src="../images/logo.png" alt="DP Icon">
                 </a>
             </div>
-            <button class="dropdown-btn"><i id="bars" class="fas fa-bars"></i></button>
+            <button class="dropdown-btn"><i id="bars" class="fa fa-bars"></i></button>
             <div class="dropdown-content">
                 <a href="../index.html">HOME</a>
                 <a href="./experience.html">EXPERIENCE</a>
@@ -226,7 +225,7 @@
         </div>
 
 
-        
+
     </div>
 
     <script>
@@ -238,10 +237,10 @@
 
             dropdownBtn.addEventListener('click', function () {
                 dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
-                if (dropdownIcon.className === "fas fa-bars") {
-                    dropdownIcon.className = "fas fa-times";
+                if (dropdownIcon.className === "fa fa-bars") {
+                    dropdownIcon.className = "fa fa-times";
                 } else {
-                    dropdownIcon.className = "fas fa-bars";
+                    dropdownIcon.className = "fa fa-bars";
                 }
             });
 

@@ -296,7 +296,7 @@ body {
     color: #D52727;
 }
 
-.is-mobile .dropdown-btn {
+.is-mobile .dropdown-btn #bars{
     position: absolute;
     top: 70px;
     right: 70px;
@@ -317,7 +317,6 @@ body {
     margin-bottom: 20px;
     color: #D52727;
 }
-
 
 .is-mobile .media_links {
     display: flex;
